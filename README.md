@@ -1,5 +1,6 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/kwaz1k/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/kwaz1k/frontend-project-44/actions) <a href="https://codeclimate.com/github/kwaz1k/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/90f45649da67ef56199f/maintainability" /></a>
+[![Actions Status](https://github.com/kwaz1k/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/kwaz1k/frontend-project-44/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/90f45649da67ef56199f/maintainability)](https://codeclimate.com/github/kwaz1k/frontend-project-44/maintainability)
 
 ## brain-games
 [![asciicast](https://asciinema.org/a/ZRXhZnV9VKmvooVkwVpHBGrxW.svg)](https://asciinema.org/a/ZRXhZnV9VKmvooVkwVpHBGrxW)
