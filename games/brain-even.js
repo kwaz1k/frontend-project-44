@@ -15,3 +15,4 @@ const question = () => {
 export default function brainEven() {
   game(gameTask, question);
 }
+  
