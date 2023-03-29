@@ -9,3 +9,6 @@
 
 ## brain-even game
 [![asciicast](https://asciinema.org/a/FcHh7x7RQa6Gc7AAeiIPaNZIl.svg)](https://asciinema.org/a/FcHh7x7RQa6Gc7AAeiIPaNZIl)
+
+## brain-calc game
+[![asciicast](https://asciinema.org/a/SV3sUvswNekW4d0efWXu1KpnU.svg)](https://asciinema.org/a/SV3sUvswNekW4d0efWXu1KpnU)

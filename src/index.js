@@ -1,20 +1,20 @@
 import readlineSync from 'readline-sync';
 import askName from './cli.js';
 
-export default function game(gameTask, question) {
+export default function game(gameTask, generateQuestion) {
   console.log(gameTask);
-  const username = askName();
+  const playerName = askName();
   for (let i = 0; i < 3; i += 1) {
-    const [random, answer] = question();
-    console.log(`Question: ${random}`);
-    const userAnswer = readlineSync.question('Your answer: ');
-    if (userAnswer === answer) {
+    const [question, correctAnswer] = generateQuestion();
+    console.log(`Question: ${question}`);
+    const playerAnswer = readlineSync.question('Your answer: ');
+    if (playerAnswer === correctAnswer) {
       console.log('Correct! ');
     } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);
-      console.log(`Let's try again, ${username}!`);
+      console.log(`'${playerAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
+      console.log(`Let's try again, ${playerName}!`);
       return;
     }
   }
-  console.log(`Congratulations, ${username}!`);
+  console.log(`Congratulations, ${playerName}!`);
 }
