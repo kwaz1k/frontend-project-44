@@ -25,5 +25,5 @@ function generateQuestion() {
 const gameTask = 'What is the result of the expression?';
 
 export default function brainCalc() {
-    game(gameTask, generateQuestion);
+  game(gameTask, generateQuestion);
 }
